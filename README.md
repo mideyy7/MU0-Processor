@@ -1,6 +1,6 @@
 # MU0 Processor
 
-A fully structural SystemVerilog implementation of the MU0 processor, designed and verified as part of COMP12111 (University of Manchester). Includes a complete datapath, control unit, memory subsystem with memory-mapped I/O, and an original decimal-to-hexadecimal quiz game written in MU0 assembly.
+A fully structural SystemVerilog implementation of the MU0 processor that includes a complete datapath, control unit, memory subsystem with memory-mapped I/O, and a decimal-to-hexadecimal quiz game written in MU0 assembly.
 
 ---
 
@@ -178,9 +178,3 @@ For Xilinx synthesis, the memory init path switches from the Questa path (`./src
 - **Peripherals used**: 16-key keypad, 6 seven-segment digits, traffic light LEDs, piezo buzzer, simple push-buttons
 
 ---
-
-## Author
-
-Ayomide Ojediran — November 2025  
-Course: COMP12111, University of Manchester  
-Base framework: P W Nutter (Version 2024)
